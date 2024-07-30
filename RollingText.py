@@ -1,7 +1,6 @@
 import pygame
 pygame.font.init()
 
-print("bonjour à tous")
 
 class RollingText:
     def __init__(self, text, font, pos=(0, 0), color=(0, 0, 0), rolling_speed=0.35):
